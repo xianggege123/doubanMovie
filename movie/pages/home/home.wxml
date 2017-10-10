@@ -1,0 +1,15 @@
+<view class="content">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image style="width:100%;" src="{{item}}" class="slide-image" width="355" height="150"/>
+        </swiper-item>
+      </block>
+    </swiper>
+
+    <import src="../template/template"/>
+    <template is="movies" data="{{movies}}"></template>
+    
+
+</view>
+<loading hidden="{{hiddenLoading}}">加载中...</loading>

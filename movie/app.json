@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/tuijian/tuijian",
+    "pages/search/search",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#444",
+    "navigationBarTitleText": "翔哥哥的电影APP",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color":"#aaa",
+    "selectedColor":"#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#eee",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "影院热映",
+      "iconPath":"assets/img/home.png",
+      "selectedIconPath":"assets/img/home-actived.png"
+    },{
+      "pagePath": "pages/tuijian/tuijian",
+      "text": "电影推荐",
+      "iconPath": "assets/img/board.png",
+      "selectedIconPath": "assets/img/board-actived.png"
+    },{
+      "pagePath": "pages/search/search",
+      "text": "查询电影",
+      "iconPath": "assets/img/search.png",
+      "selectedIconPath": "assets/img/search-actived.png"
+    }]
+  }
+}
